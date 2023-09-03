@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forgot Password</title>
+    <style>
+        /* Add some basic CSS for styling */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: transparent;}
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            box-sizing: border-box;
+            border: 1px solid #ccc; /* Add a border */
+            border-radius: 5px; /* Add some border radius */
+        }
+        h2{
+            color: blue;
+        } 
+
+        input[type="submit"] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px;
+            margin: 10px 0;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        body{
+            background-image: url(ss5.avif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Forgot Password</h2>
+        <form action="index1.html">
+            <div class="input-box">
+                <input type="text" id="emailOrUsername" name="emailOrUsername" placeholder="Enter Email or Username" required>
+            </div>
+
+            <div class="input-box">
+                <input type="password" id="newPassword" name="newPassword" placeholder="Enter New Password" required>
+            </div>
+
+         <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
